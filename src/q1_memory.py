@@ -40,4 +40,4 @@ def q1_memory(file_path: str) -> List[Tuple[datetime.date, str]]:
         top_user = max(users.items(), key=lambda x: x[1])[0]
         top_10_users.append((top_date, top_user))
 
-    
+    return top_10_users
